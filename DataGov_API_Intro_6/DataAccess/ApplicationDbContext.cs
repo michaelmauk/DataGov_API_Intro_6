@@ -8,7 +8,7 @@ namespace DataGov_API_Intro_6.DataAccess
             base(options)
         { }
 
-        public DbSet<Parks> Parks { get; set; }
+        public DbSet<Models.Parks> Parks { get; set; }
         public DbSet<Park> Park { get; set; }
     }
 }
